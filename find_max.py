@@ -6,6 +6,4 @@ def find_max(array):
 if __name__ == '__main__':
     list_ = [1,2,3,4,5]
     result = find_max(list_)
-    # print(result)
-    print('done')
-    print('re commit?')
+    print(result)
