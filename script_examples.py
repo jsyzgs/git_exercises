@@ -22,4 +22,7 @@ if __name__=='__main__':
     cv2.imwrite(r'D:\GS\ZJ_GS\Proj\GitHub\PaddleOCR\doc\imgs\new_rmb_10.jpg',img)
     tlbr = [10,10,20,20]
     tlwh = tlbr2tlwh(tlbr)
+
+    print('test merge by hand')
+    print('reset head')
     print('done')
