@@ -7,6 +7,7 @@ def resize_image(image_path,save_path):
     cv2.imwrite('new_image.jpg',new_image)
 
 if __name__ == '__main__':
+    print('test fix commit message')
     image_path = './img.jpg'
     save_path = './path'
     resize_image(image_path,save_path)
