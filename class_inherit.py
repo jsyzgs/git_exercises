@@ -20,6 +20,10 @@ class Person(object):
     def sleep(self,site):
         print('i am sleeping at %s'%site)
 
+    ''' hidden property'''
+    def _play(self,sth):
+        print('i am playing %s'%sth)
+
 class Student(Person):
     def __init__(self,name,age,gender):
         Person.__init__(self,name,age,gender)
